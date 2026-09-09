@@ -1,0 +1,58 @@
+[
+  {
+    "Az": "84526",
+    "Changes": [
+      {
+        "EffectiveDate": "2022-03-01T00:00:00",
+        "NewRatePercent": 12.00
+      },
+      {
+        "EffectiveDate": "2022-05-01T00:00:00",
+        "NewRatePercent": 12.49
+      },
+      {
+        "EffectiveDate": "2022-06-01T00:00:00",
+        "NewRatePercent": 13.28
+      },
+      {
+        "EffectiveDate": "2022-08-01T00:00:00",
+        "NewRatePercent": 1487
+      }
+    ]
+  },
+  {
+    "Az": "76742",
+    "Changes": [
+      {
+        "EffectiveDate": "2022-03-01T00:00:00",
+        "NewRatePercent": 12.00
+      },
+      {
+        "EffectiveDate": "2022-05-01T00:00:00",
+        "NewRatePercent": 12.49
+      }
+    ]
+  },
+  {
+    "Az": "122005",
+    "Changes": [
+      {
+        "EffectiveDate": "2022-03-01T00:00:00",
+        "NewRatePercent": 12.00
+      }
+    ]
+  },
+  {
+    "Az": "108729",
+    "Changes": [
+      {
+        "EffectiveDate": "2022-03-01T00:00:00",
+        "NewRatePercent": 12.00
+      },
+      {
+        "EffectiveDate": "2022-05-01T00:00:00",
+        "NewRatePercent": 12.49
+      }
+    ]
+  }
+]

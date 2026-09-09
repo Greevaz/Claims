@@ -63,3 +63,19 @@ Or open the folder in Visual Studio / VS Code and run from there.
 4. **Document Checklist** — tick off which claim documents you have.
 5. Click **Calculate** (bottom left) — this fills in the **Results** tab.
 6. Go to **Cover Letter** → **Generate Cover Letter**, then save to file or copy to clipboard.
+
+## OneDrive Excel database
+
+The **Load from SharePoint** button looks up a record by the `AZ` column in
+the local OneDrive-synced `ClaimsData` Excel table and fills in the client
+name, policy number, loan amount, loan start date, and incident date. The
+**Database Record** tab exposes every column for editing, and the **Save to
+Excel** button writes all fields back to the matching table row.
+The local workbook path and table name are in `appsettings.json`, so they can
+be changed later without changing the calculation code.
+
+The app uses the installed desktop Excel application for this integration.
+Excel must be closed for the workbook before saving through the app. The
+workbook should have SharePoint version history and a server-side backup
+enabled. Concurrent edits are not conflict-free: the app should be used by
+one writer at a time until a SharePoint List, API, or database is available.
